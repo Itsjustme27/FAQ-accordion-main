@@ -13,7 +13,6 @@ body{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
     color: hsl(292, 42%, 14%);
 }
 
@@ -32,7 +31,7 @@ body{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 50px;
     text-align: start;
 }
 
@@ -40,6 +39,7 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: large;
 }
 
 
@@ -54,7 +54,7 @@ h1{
 }
 
 .text{
-    font-size: small;
+    font-size: medium;
     display: none;
     color: hsl(292, 16%, 49%);
 }
