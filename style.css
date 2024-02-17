@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url(./faq-accordion-main/assets/images/background-pattern-desktop.svg);
+    background-color: hsl(275, 100%, 97%);
+    background-repeat: no-repeat;
+    position: relative;  
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(292, 42%, 14%);
+}
+
+#container{
+    background-color: white;
+    border-radius: 20px;
+    height: 33.68rem;
+    width: 33.6rem;
+    margin: 80px 0 20px 0;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 0 rgb(0, 0, 1);
+
+}
+
+#star{
+    margin: 0 20px 0 0;
+}
+
+h1{
+    font-size: 40px;
+    text-align: start;
+}
+
+.query{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.heading{
+    display: flex;
+    align-items: center;
+}
+
+#minus{
+    cursor: pointer;
+}
+
+.text{
+    font-size: small;
+    display: none;
+    color: hsl(292, 16%, 49%);
+}
+
+.text1,.text2, .text3, .text4{
+    display: block;
+}
+
+
+hr{
+    border: 0.1px solid whitesmoke;
+    
+}
+
+.plus{
+    background-image: url(./faq-accordion-main/assets/images/icon-minus.svg);
+    background-size: unset;
+    background-repeat: unset;
+    background-size: cover;
+}
+
+
+
+
